@@ -1,5 +1,23 @@
-
+int x = 400;
+int y = 400;
+int leftx = 200;
+int rightx = 600;
 void setup() {
+  
+  size(800,800);
+  
+  noFill();
+  for(int i = 0; i < 20; i++) {
+    ellipse(leftx,400,x,y);
+    x-=20;
+    y-=20;
+  }
+  
+  for(int i = 0; i < 20; i++) {
+    ellipse(rightx,400,x,y);
+    x-=20;
+    y-=20;
+  }
   
 }
 
@@ -13,4 +31,5 @@ void draw() {
   Make the rings move past each other.
   When the rings hit the side of the sketch, make them reverse their direction.
   */
+  
 }
