@@ -1,7 +1,7 @@
 int x = 400;
 int y = 400;
 int leftx = 200;
-int rightx = 600;
+int rightx = 605;
 void setup() {
   
   size(800,800);
