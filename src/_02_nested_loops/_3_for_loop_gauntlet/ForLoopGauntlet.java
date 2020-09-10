@@ -60,8 +60,25 @@ public class ForLoopGauntlet {
 			System.out.print(j + " ");
 			j++;
 			System.out.println(j);
+		}
+		int b = 1;
+		for(int a = 0; a < 10; a++) {
+			for(int i = 0; i < 10; i++) {
+				System.out.print(b + " ");
+				b++;
+			}
+			System.out.println();
+		}
+		for(int i = 1; i < 7; i++) {
+			for(int a = 0; a < i; a++) {
+				System.out.print("* ");
+			}
+			System.out.println();
 		}*/
-		
+		for(int i = 0; i < 100; i++) {
+			int a = 100;
+			System.out.println(a-i);
+		}
 		
 	}
 }
