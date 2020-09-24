@@ -46,14 +46,14 @@ public class HappyPet {
 	public static void play() {
 		happinessLevel++;
 		happinessLevel++;
-		System.out.println("You played with your pet! Its happiness is now at " + happinessLevel);
+		JOptionPane.showMessageDialog(null, "You played with your pet! Its happiness is now at " + happinessLevel);
 	}
 	public static void walk() {
 		happinessLevel++;
-		System.out.println("You took your pet on a walk! Its happiness is now at " + happinessLevel);
+		JOptionPane.showMessageDialog(null, "You took your pet on a walk! Its happiness is now at " + happinessLevel);
 	}
 	public static void clean() {
 		happinessLevel++;
-		System.out.println("You cleaned your pet! Its happiness is now at " + happinessLevel);
+		JOptionPane.showMessageDialog(null, "You cleaned your pet! Its happiness is now at " + happinessLevel);
 	}	
 }
